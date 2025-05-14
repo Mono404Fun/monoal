@@ -92,7 +92,7 @@ Feel free to connect with me via:
 
 - 🌐 Website: [monoal.js.org](https://monoal.js.org) *(if applicable)*
 - 📧 Email: [mono404fun@gmail.com](mailto:mono404fun@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/zakariaaliliche](https://linkedin.com/in/zakariaaliliche)
+- 💼 Discord: [https://discordapp.com/users/1271253471408164889](https://discordapp.com/users/1271253471408164889)
 - 🐙 GitHub: [github.com/Mono404Fun](https://github.com/Mono404Fun)
 
 ---
