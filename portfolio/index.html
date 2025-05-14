@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Professional portfolio showcasing my web development projects and skills">
+  <meta name="keywords" content="zakaria aliliche, monoal, monoal portfolio, monoal website, monoal web, zaki web, zaki portfolio, aliliche, monoal's web">
+  <meta name="robots" content="index, follow">
+  <title>Zakaria Aliliche | Senior Front-End Developer</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="icons/icon-minimalist-crimson-m.ico">
+</head>
+<body>
+  <div class="preloader">
+    <div class="preloader__inner">
+      <div class="preloader__logo">
+        <svg viewBox="-5 0 210 210" class="logo-svg">
+          <path class="logo-path" d="M100,0 C155.228,0 200,44.772 200,100 C200,155.228 155.228,200 100,200 C44.772,200 0,155.228 0,100 C0,44.772 44.772,0 100,0 Z" fill="none"/>
+          <text class="logo-text" x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">ZD</text>
+        </svg>
+      </div>
+      <div class="preloader__progress">
+        <div class="preloader-progress__bar"></div>
+        <div class="progress__text">0%</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cursor cursor--normal"></div>
+  <div class="cursor cursor--hover"></div>
+  <div class="cursor cursor--active"></div>
+
+  <div class="background__particles" id="particles-js" data-aos="fade" data-aos-delay="1000" data-aos-once="true"></div>
+
+  <header class="main-header">
+    <div class="header__container">
+      <div class="header__brand" data-aos="fade-down" data-aos-delay="1200" data-aos-once="true">
+        <div class="brand__logo">
+          <svg viewBox="-5 0 210 210">
+            <path class="logo-path" d="M100,0 C155.228,0 200,44.772 200,100 C200,155.228 155.228,200 100,200 C44.772,200 0,155.228 0,100 C0,44.772 44.772,0 100,0 Z" fill="none"/>
+            <text class="logo-text" x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">ZD</text>
+          </svg>
+        </div>
+        <h1 class="brand__title">Zakaria<span>Dev</span></h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="nav__item" data-text="Home" data-aos="fade-down" data-aos-delay="1300" data-aos-once="true">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item" data-text="About" data-aos="fade-down" data-aos-delay="1400" data-aos-once="true">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item" data-text="Work" data-aos="fade-down" data-aos-delay="1500" data-aos-once="true">
+            <a href="#work" class="nav__link">Work</a>
+          </li>
+          <li class="nav__item" data-text="Skills" data-aos="fade-down" data-aos-delay="1600" data-aos-once="true">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item" data-text="Contact" data-aos="fade-down" data-aos-delay="1700" data-aos-once="true">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__actions" data-aos="fade-down" data-aos-delay="1800" data-aos-once="true">
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <i class="bx bx-sun"></i>
+          <i class="bx bx-moon"></i>
+        </button>
+        <button class="toggle-menu" aria-label="Toggle menu">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <video class="blackhole-box" src="videos/blackhole.mp4" autoplay loop muted playsinline data-aos="zoom-out" data-aos-delay="2000" data-aos-once="true"></video>
+
+  <main class="main-content">
+    <section class="home-section" id="home">
+      <div class="home-content">
+        <div class="home__badge" data-aos="fade-right" data-aos-delay="200" data-aos-once="true">
+          <i class="bx bxs-star"></i>
+          <span>Innovative Developer | 4+ Years Experience</span>
+        </div>
+
+        <h1 class="home__title">
+          <span class="title__line" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Providing the <span class="text-gradient"> Best</span></span>
+          <span class="title__line" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">Digital <span class="text-gradient"> Experience</span> </span>
+        </h1>
+
+        <p class="home__description" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+          I specialize in building performant, accessible web applications with React and modern JavaScript.
+          I interest in both front/back end dev.
+        </p>
+
+        <div class="home__stats">
+          <div class="stat__item" data-aos="zoom-in" data-aos-delay="600" data-aos-once="true">
+            <span class="stat__number" data-count="26">0</span>+
+            <span class="stat__label">Projects</span>
+          </div>
+          <div class="stat__item" data-aos="zoom-in" data-aos-delay="700" data-aos-once="true">
+            <span class="stat__number" data-count="4">0</span>+
+            <span class="stat__label">Clients</span>
+          </div>
+          <div class="stat__item" data-aos="zoom-in" data-aos-delay="800" data-aos-once="true">
+            <span class="stat__number" data-count="4">0</span>+
+            <span class="stat__label">Years</span>
+          </div>
+        </div>
+
+        <div class="home__actions">
+          <div class="btn-wrapper" data-cursor-hover data-aos="fade-right" data-aos-delay="900" data-aos-once="true">
+            <a href="#work" class="btn btn--primary">
+              <span>View My Work</span>
+              <i class="bx bx-chevron-right"></i>
+            </a>
+          </div>
+          <div class="btn-wrapper" data-cursor-hover data-aos="fade-left" data-aos-delay="900" data-aos-once="true">
+            <a href="#contact" class="btn btn--secondary">
+              <span>Contact Me</span>
+              <i class="bx bx-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="next-gen-editor-wrapper" data-aos="fade-left" data-aos-delay="900" data-aos-once="true">
+        <div class="next-gen-editor">
+          <div class="editor-header glass">
+            <div class="editor-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="editor-title">portfolio.js</div>
+          </div>
+
+          <div class="code-container">
+            <div class="code-line" style="--delay:0s">const <span class="var">portfolio</span> = {</div>
+            <div class="code-line" style="--delay:1.8s">&nbsp;&nbsp;<span class="prop">projects</span>: <span class="num">26</span>,</div>
+            <div class="code-line" style="--delay:3.6s">&nbsp;&nbsp;<span class="prop">stack</span>: [<span class="string">"React"</span>, <span class="string">"Node"</span>, <span class="string">"AI"</span>],</div>
+            <div class="code-line" style="--delay:5.4s">&nbsp;&nbsp;<span class="prop">clients</span>: <span class="num">4</span>+</div>
+            <div class="code-line" style="--delay:7.2s">};</div>
+          </div>
+
+          <div class="editor-footer">
+            <div class="circular-loader"></div>
+            <div class="status-info">
+              <span class="status-item"><i class="icon-branch"></i> main</span>
+              <span class="status-item"><i class="icon-encoding"></i> UTF-8</span>
+              <span class="status-item"><i class="icon-react"></i> React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="home__scroll-indecator" data-aos="fade-down" data-aos-delay="900" data-aos-once="true">
+        <span>Scroll</span>
+        <div class="indicator__line"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="extra-layer">
+        <div class="section__header">
+          <h2 class="section__title" data-aos="fade-up" data-aos-once="true">
+            <span class="title__main">Technical Expertise</span>
+          </h2>
+          <p class="section__subtitle" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">Specialized in low-level and high-performance programming</p>
+        </div>
+
+        <div class="about__grid">
+          <div class="card-wrapper" data-cursor-hover data-aos="flip-up" data-aos-delay="200" data-aos-once="true">
+            <div class="about__card">
+              <div class="card__content">
+                <div class="card__icon">
+                  <i class="bx bx-code-alt"></i>
+                </div>
+                <h3 class="card__title">Core Languages</h3>
+                <p class="card__text">
+                  Deep expertise in system programming with C/C++/Rust and app dev with C#/Java.
+                </p>
+                <div class="card__hover-content">
+                  <div class="skills__list">
+                    <span>C++20</span>
+                    <span>Rust</span>
+                    <span>.NET Core</span>
+                    <span>Python</span>
+                    <span>Ruby</span>
+                    <span>Java</span>
+                  </div>
+                  <button class="card__btn" data-cursor-hover>
+                    <span>See Projects</span>
+                    <i class="bx bx-right-arrow-alt"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrapper"  data-cursor-hover data-aos="flip-up" data-aos-delay="300" data-aos-once="true">
+            <div class="about__card">
+              <div class="card__content">
+                <div class="card__icon">
+                  <i class="bx bx-chip"></i>
+                </div>
+                <h3 class="card__title">Specializations</h3>
+                <p class="card__text">
+                  Focused on security-oriented development and performance-critical systems.
+                </p>
+                <div class="card__hover-content">
+                  <div class="principles">
+                    <div class="principle">
+                      <i class="bx bx-shield-alt-2"></i>
+                      <span>Malware Research</span>
+                    </div>
+                    <div class="principle">
+                      <i class="bx bx-game"></i>
+                      <span>Game Engine Dev</span>
+                    </div>
+                    <div class="principle">
+                      <i class="bx bx-terminal"></i>
+                      <span>CLI Tools</span>
+                    </div>
+                  </div>
+                  <button class="card__btn" data-cursor-hover>
+                    <span>View Work</span>
+                    <i class="bx bx-right-arrow-alt"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrapper"  data-cursor-hover data-aos="flip-up" data-aos-delay="400" data-aos-once="true">
+            <div class="about__card">
+              <div class="card__content">
+                <div class="card__icon">
+                  <i class="bx bx-cube-alt"></i>
+                </div>
+                <h3 class="card__title">Frameworks & Tools</h3>
+                <p class="card__text">
+                  Advanced usage of specialized frameworks and development environments.
+                </p>
+                <div class="card__hover-content">
+                  <ul class="timeline">
+                    <li><strong>Game Dev</strong>: Unity, Godot</li>
+                    <li><strong>Security</strong>: Metasploit, Ghidra, x64dbg</li>
+                    <li><strong>Systems</strong>: WinAPI, POSIX, .NET</li>
+                  </ul>
+                  <button class="card__btn" data-cursor-hover>
+                    <span>Details</span>
+                    <i class="bx bx-right-arrow-alt"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__footer" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+          <div class="expertise-statement">
+            <div class="statement__icon">
+              <i class="bx bx-stats"></i>
+            </div>
+            <div class="statement__content">
+              <h3 class="statement__title">Holistic Technical Approach</h3>
+              <p class="statement__text">
+                Combining low-level systems mastery with modern development practices to deliver
+                <span class="text-gradient">high-performance, secure solutions</span> across the entire stack.
+                My cross-disciplinary expertise ensures optimal solutions from hardware to UI.
+              </p>
+            </div>
+            <div class="statement__cta">
+              <button class="btn btn--outline" data-cursor-hover>
+                <span>Explore Full Skills Matrix</span>
+                <i class="bx bx-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work-section">
+      <div class="section__header">
+        <h2 class="section__title" data-aos="fade-up" data-aos-once="true">
+          <span class="title__main">Technical Projects</span>
+        </h2>
+        <p class="section__subtitle" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">Systems programming and security-focused implementations</p>
+      </div>
+
+      <div class="work__grid">
+        <div class="card-wrapper" data-cursor-hover data-aos="fade-right" data-aos-delay="200" data-aos-once="true">
+          <div class="work__item">
+            <div class="item__image">
+              <img src="images/project1.jpg" alt="Malware Tool" loading="lazy" decoding="async">
+              <div class="image__overlay">
+                <div class="overlay__content">
+                  <h4>Key Features</h4>
+                  <ul>
+                    <li>Screen, camera and voice REC</li>
+                    <li>Account, cookie stealer & WI-FI hackery</li>
+                    <li>File, process explorer</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="item__content">
+              <h3 class="item__title">Advanced Spyware</h3>
+              <p class="item__category">Malware</p>
+              <div class="item__tags">
+                <span>C++</span>
+                <span>WinAPI</span>
+                <span>Python</span>
+              </div>
+              <a href="#" class="item__link" data-cursor-hover>
+                <span>View Details</span>
+                <i class="bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper" data-cursor-hover data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
+          <div class="work__item">
+            <div class="item__image">
+              <img src="images/project2.jpg" alt="Cheating Tool" loading="lazy" decoding="async">
+              <div class="image__overlay">
+                <div class="overlay__content">
+                  <h4>Key Features</h4>
+                  <ul>
+                    <li>Advanced Aim Bot + Auto Clicker (Demo)</li>
+                    <li>Unlimited Resources (Health, Ammo, Gold,...etc)</li>
+                    <li>Teleport, Fast Running</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="item__content">
+              <h3 class="item__title">Video Game Cheat</h3>
+              <p class="item__category">Game Cheating Tool</p>
+              <div class="item__tags">
+                <span>C#</span>
+                <span>.NET</span>
+                <span>C/C++</span>
+              </div>
+              <a href="#" class="item__link" data-cursor-hover>
+                <span>View Details</span>
+                <i class="bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-wrapper" data-cursor-hover data-aos="fade-left" data-aos-delay="400" data-aos-once="true">
+          <div class="work__item">
+            <div class="item__image">
+              <img src="images/project3.jpg" alt="Network Tool" loading="lazy" decoding="async">
+              <div class="image__overlay">
+                <div class="overlay__content">
+                  <h4>Key Features</h4>
+                  <ul>
+                    <li>Raw socket programming</li>
+                    <li>Protocol analysis</li>
+                    <li>Traffic manipulation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="item__content">
+              <h3 class="item__title">Socks5 Proxy</h3>
+              <p class="item__category">Proxy</p>
+              <div class="item__tags">
+                <span>Rust</span>
+                <span>Tokio</span>
+                <span>C</span>
+              </div>
+              <a href="#" class="item__link" data-cursor-hover>
+                <span>View Details</span>
+                <i class="bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+        <h3 class="testimonials__title">Client Voices</h3>
+        <div class="testimonials__slider">
+          <div class="testimonial">
+            <blockquote>
+              Zakaria delivered beyond expectations, with attention to detail that's rare to find. His solution reduced our load times by 60% while improving UX.
+            </blockquote>
+            <div class="client">
+              <img src="images/client1.jpg" alt="Sarah Johnson">
+              <div>
+                <strong>Abd Arrahmane Aliliche</strong>
+                <span>C++ Developer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="work__cta" data-aos="fade-up" data-aos-delay="600" data-aos-once="true">
+        <a href="#" class="btn btn--outline" data-cursor-hover>
+          <span>View All Projects</span>
+          <i class="bx bx-archive"></i>
+        </a>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="extra-layer">
+        <div class="section__header">
+          <h2 class="section__title" data-aos="fade-up" data-aos-once="true">
+            <span class="title__main">Technical Proficiencies</span>
+          </h2>
+          <p class="section__subtitle" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">Specialized skills for systems and security development</p>
+        </div>
+
+        <div class="skills__container">
+          <div class="skills__visual" data-aos="zoom-in" data-aos-delay="200" data-aos-once="true">
+            <div class="visual__orb">
+              <div class="orb__inner"></div>
+              <div class="orb__glow"></div>
+              <div class="orb__particles"></div>
+            </div>
+          </div>
+
+          <div class="skills__list">
+            <div class="skill__category" data-aos="fade-left" data-aos-delay="300" data-aos-once="true">
+              <h3 class="category__title">
+                <i class="bx bx-memory-card"></i> Systems Programming
+              </h3>
+              <div class="category__items">
+                <div class="skill__item" data-percent="40">
+                  <span class="item__name">C/C++</span>
+                  <div class="item__progress">
+                    <div class="progress__bar"></div>
+                  </div>
+                </div>
+                <div class="skill__item" data-percent="39">
+                  <span class="item__name">Rust</span>
+                  <div class="item__progress">
+                    <div class="progress__bar"></div>
+                  </div>
+                </div>
+                <div class="skill__item" data-percent="41">
+                  <span class="item__name">WinAPI/POSIX</span>
+                  <div class="item__progress">
+                    <div class="progress__bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill__category" data-aos="fade-left" data-aos-delay="400" data-aos-once="true">
+              <h3 class="category__title">
+                <i class="bx bx-shield-quarter"></i> Security Development
+              </h3>
+              <div class="category__items">
+                <div class="skill__item" data-percent="23">
+                  <span class="item__name">Reverse Engineering</span>
+                  <div class="item__progress">
+                    <div class="progress__bar"></div>
+                  </div>
+                </div>
+                <div class="skill__item" data-percent="15">
+                  <span class="item__name">Exploit Dev</span>
+                  <div class="item__progress">
+                    <div class="progress__bar"></div>
+                  </div>
+                </div>
+                <div class="skill__item" data-percent="6">
+                  <span class="item__name">Binary Analysis</span>
+                  <div class="item__progress">
+                    <div class="progress__bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="methodology" data-aos="fade-left" data-aos-delay="500" data-aos-once="true">
+              <h4>Development Approach</h4>
+              <ul>
+                <li>Performance-first mindset</li>
+                <li>Secure coding practices</li>
+                <li>Cross-platform compatibility</li>
+                <li>Low-level optimization</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="section__header">
+        <h2 class="section__title" data-aos="fade-up" data-aos-once="true">
+          <span class="title__main">Let's Build Something</span>
+        </h2>
+        <p class="section__subtitle" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">Have a project in mind? Get in touch within 24 hours response time</p>
+      </div>
+
+      <div class="contact__container">
+        <div class="contact__info" data-aos="fade-right" data-aos-delay="200" data-aos-once="true">
+          <h3 class="info__title">Connect With Me</h3>
+          <p class="info__text">
+            I'm currently available for freelance work and interesting project
+            opportunities. Feel free to reach out!
+          </p>
+
+          <div class="availability">
+            <h4>Current Availability</h4>
+            <div class="status available">
+              <i class="bx bx-check-circle"></i>
+              <span>Accepting new projects</span>
+            </div>
+            <p>Typically responds within 4 hours during work days</p>
+          </div>
+
+          <div class="info__methods">
+            <div class="method__item" data-aos="fade-right" data-aos-delay="300" data-aos-once="true">
+              <div class="icon__zone">
+                <div class="item__icon">
+                  <i class="bx bx-envelope"></i>
+                </div>
+              </div>
+              <div class="item__content">
+                <h4>Email Me</h4>
+                <a href="mailto:contact@zakariadev.com">mono404fun@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="method__item" data-aos="fade-right" data-aos-delay="350" data-aos-once="true">
+              <div class="icon__zone">
+                <div class="item__icon">
+                  <i class="bx bx-phone"></i>
+                </div>
+              </div>
+              <div class="item__content">
+                <h4>Call Me</h4>
+                <a href="tel:+213553500798">+213 (553) 500-798</a>
+              </div>
+            </div>
+
+            <div class="method__item" data-aos="fade-right" data-aos-delay="400" data-aos-once="true">
+              <div class="icon__zone">
+                <div class="item__icon">
+                  <i class="bx bx-map"></i>
+                </div>
+              </div>
+              <div class="item__content">
+                <h4>Location</h4>
+                <span>Tizi-Ouzou, Algeria</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="process" data-aos="fade-right" data-aos-delay="450" data-aos-once="true">
+            <h4>My Process</h4>
+            <ol>
+              <li>Initial consultation</li>
+              <li>Project scoping</li>
+              <li>Proposal & timeline</li>
+              <li>Development phases</li>
+            </ol>
+          </div>
+
+          <div class="info__social" data-aos="fade-right" data-aos-delay="500" data-aos-once="true">
+            <h4>Follow Me</h4>
+            <div class="social__links">
+              <a href="https://github.com/Mono404Fun" class="social__link" aria-label="GitHub" data-cursor-hover>
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://discordapp.com/users/1271253471408164889" class="social__link" aria-label="Discord" data-cursor-hover>
+                <i class="bx bxl-discord"></i>
+              </a>
+              <a href="https://web.facebook.com/Snownap9" class="social__link" aria-label="Facebook" data-cursor-hover>
+                <i class="bx bxl-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/id_ris.404/" class="social__link" aria-label="Instagram" data-cursor-hover>
+                <i class="bx bxl-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact__form" name="portfolio-contact" method="POST" data-aos="fade-left" data-aos-delay="300" data-aos-once="true">
+
+          <div class="form__group floating" data-aos="fade-left" data-aos-delay="350" data-aos-once="true">
+            <input type="text" id="name" name="name" placeholder=" " required>
+            <label for="name">Your Name</label>
+            <div class="underline"></div>
+          </div>
+
+          <div class="form__group floating" data-aos="fade-left" data-aos-delay="400" data-aos-once="true">
+            <input type="email" id="email" name="email" placeholder=" " required>
+            <label for="email">Email Address</label>
+            <div class="underline"></div>
+          </div>
+
+          <div class="form__group floating" data-aos="fade-left" data-aos-delay="450" data-aos-once="true">
+            <input type="text" id="subject" name="subject" placeholder=" ">
+            <label for="subject">Subject</label>
+            <div class="underline"></div>
+          </div>
+
+          <div class="form__group floating" data-aos="fade-left" data-aos-delay="500" data-aos-once="true">
+            <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+            <label for="message">Your Message</label>
+            <div class="underline"></div>
+          </div>
+		  
+          <div class="form__actions" data-aos="fade-left" data-aos-delay="600" data-aos-once="true">
+            <button type="submit" class="btn btn--primary" data-cursor-hover>
+              <span>Send Message</span>
+              <i class="bx bx-send"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__brand" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+        <div class="brand__logo">
+          <svg viewBox="-5 0 210 210">
+            <path class="logo-path" d="M100,0 C155.228,0 200,44.772 200,100 C200,155.228 155.228,200 100,200 C44.772,200 0,155.228 0,100 C0,44.772 44.772,0 100,0 Z" fill="none"/>
+            <text class="logo-text" x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">ZD</text>
+          </svg>
+        </div>
+        <h3 class="brand__title">Zakaria<span>Dev</span></h3>
+        <p class="brand__tagline">Creating exceptional digital experiences</p>
+      </div>
+      <div class="footer__links">
+        <div class="links__group" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
+          <h4 class="group__title">Navigation</h4>
+          <ul class="group__list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="links__group" data-aos="fade-up" data-aos-delay="350" data-aos-once="true">
+          <h4 class="group__title">Services</h4>
+          <ul class="group__list">
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">UI/UX Design</a></li>
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Prototyping</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__newsletter" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+        <h4 class="newsletter__title">Stay Updated</h4>
+        <p class="newsletter__text">
+          Subscribe to my newsletter for the latest projects and insights.
+        </p>
+        <form class="newsletter__form">
+          <div class="form__group">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" aria-label="Subscribe">
+              <i class="bx bx-send"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="copyright" data-aos="fade" data-aos-delay="500" data-aos-once="true">
+        &copy; 2025 Zakaria Aliliche. All rights reserved.
+      </p>
+      <div class="legal__links" data-aos="fade" data-aos-delay="550" data-aos-once="true">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <i class="bx bx-chevron-up"></i>
+  </button>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.87/build/spline-viewer.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
