@@ -82,7 +82,7 @@ portfolio/
 ## 📸 Live Preview
 
 You can view the website live at:  
-**[monoal.netlify.app](https://monoal.netlify.app)** *(Replace with your actual URL)*
+**[monoal.netlify.app](https://monoal.netlify.app)**
 
 ---
 
@@ -90,9 +90,9 @@ You can view the website live at:
 
 Feel free to connect with me via:
 
-- 🌐 Website: [monoal.js.org](https://monoal.js.org) *(if applicable)*
+- 🌐 Website: [monoal.js.org](https://monoal.js.org)
 - 📧 Email: [mono404fun@gmail.com](mailto:mono404fun@gmail.com)
-- 💼 Discord: [https://discordapp.com/users/1271253471408164889](https://discordapp.com/users/1271253471408164889)
+- 💼 Discord: [discordapp.com/users/1271253471408164889](https://discordapp.com/users/1271253471408164889)
 - 🐙 GitHub: [github.com/Mono404Fun](https://github.com/Mono404Fun)
 
 ---
