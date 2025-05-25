@@ -38,21 +38,19 @@ This portfolio is more than just a static website — it's an immersive experien
 | **Media**          | Embedded videos, SVG icons, web fonts    |
 | **Performance**    | Lazy loading, minimal dependencies        |
 
----
-
 ## 📁 File Structure Overview
+```bash
 portfolio/
-├── index.html # Main HTML file
-├── css/
-│ └── main.css # Core stylesheet
-├── js/
-│ └── main.js # Animation and interactivity logic
-├── images/ # All image assets
-├── videos/ # Background or demo videos
-├── icons/ # Custom icons or SVGs
-├── README.md
-
----
+├── 📂 images/ # All image assets
+├── 📂 videos/ # Background or demo videos
+├── 📂 icons/ # Custom icons or SVGs
+├── 📂 css/
+│   ├── main.css # Core stylesheet
+├── 📂 js/
+│   ├── main.js # Animation and interactivity logic
+├──  README.md
+└── 📜 index.html # Main HTML file
+```
 
 ## 🧩 Sections Breakdown
 
