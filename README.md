@@ -20,9 +20,7 @@ This portfolio is more than just a static website — it's an immersive experien
 ## 🌟 Key Highlights
 
 - 🔄 **Custom Animated Preloader:** Visually engaging loader with subtle branding.
-- 🎥 **Video Background:** Seamless hero section with background video for immediate impact.
 - 🌌 **Particle Background Effects:** Adds depth and motion to the design.
-- 🖱️ **Custom Cursor:** A stylish pointer that responds to user interaction.
 - 🌗 **Light & Dark Theme Toggle:** User-friendly switch for accessibility and preference.
 - 📊 **Animated Stats & Counters:** Visually animated counters for experience and achievements.
 - ✨ **Scroll-Based Animations (AOS):** Elements appear with beautiful motion as users scroll.
