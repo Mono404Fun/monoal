@@ -75,7 +75,7 @@ portfolio/
 
 ### 📫 Contact
 - Interactive contact section (with a contact form if needed).
-- Links to GitHub, LinkedIn, and Email.
+- Links to GitHub, Discord, and Email.
 
 ---
 
